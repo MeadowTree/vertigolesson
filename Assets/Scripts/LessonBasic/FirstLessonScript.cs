@@ -15,7 +15,7 @@ namespace LessonBasic
         float ondalikSayi2 = 1.25f;
         bool dogru = true;
         bool yanlis = false;
-
+        [SerializeField] private Vector3 ucFloat = new Vector3(3, 3, 3);
 
 
 
