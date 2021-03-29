@@ -13,8 +13,8 @@ namespace LessonBasic
         int tamSayi2 = 100;
         float ondalikSayi = 0.25f;
         float ondalikSayi2 = 1.25f;
-        bool dogruYanlis = true;
-        bool dogruYanlis2 = false;
+        bool dogru = true;
+        bool yanlis = false;
 
 
 
