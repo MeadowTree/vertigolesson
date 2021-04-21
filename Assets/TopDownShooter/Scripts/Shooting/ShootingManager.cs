@@ -18,6 +18,11 @@ namespace TopDownShooter.Shooting
             {
                 
                 Debug.Log(hit.collider.name);
+                var healtStat = hit.collider.GetComponent<HealtStat>();
+                if (healtStat!=null)
+                {
+                    healtStat.hit(5);
+                }
             }
         }
     }
