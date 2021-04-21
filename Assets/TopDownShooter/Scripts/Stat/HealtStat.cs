@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class HealtStat : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private float Health = 100;
+    public void hit(float damage)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Health -= damage;
+        if (Health<=0)
+        {
+            Debug.Log("Health zero");
+        }
+        else
+        {
+            Debug.Log("Current health amount :" + Health);
+        }
     }
 }
